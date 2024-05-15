@@ -172,6 +172,9 @@
                     <div class="img_port" style="background-image: url(image/game_pokemon.png);">
                         <div class="overlay">GAME POKEMON</div>
                     </div>
+                    <div class="img_port" style="background-image: url(image/imc.png);">
+                        <div class="overlay">CALCULADORA IMC</div>
+                    </div>
 
                 </div> <!--flex-->
             </div> <!--interface-->
@@ -180,15 +183,16 @@
         <section class="falecmg" id="falacmg">
             <div class="interface">
                 <h2 class="titulo">FALE <span>COMIGO.</span></h2>
-                <form action="https://formsubmit.co/contato.portifolio.murilo@gmail.com" method="POST">
-                    <input type="hidden" name="_captcha" value="false">
+                <form
+                action="https://formspree.io/f/xvoeyvoe" method="POST">
 
+                    <input type="hidden" name="_captcha" value="false">
+                    
                     <input type="text" name="nome" placeholder="Seu nome completo:" required>
                     <input type="email" name="email" placeholder="Seu email:" required>
                     <input type="text" name="celular" placeholder="Seu celular:">
                     <textarea name="assunto" placeholder="Assunto" required></textarea>
 
-                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
 
                     <div class="enviar">
                         <input type="submit" value="ENVIAR">
